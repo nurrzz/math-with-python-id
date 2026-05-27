@@ -38,6 +38,7 @@ math-with-python-id/
 ├── README.md
 ├── requirements.txt
 ├── notebooks/
+│   ├── 01-aritmetika/
 │   └── 03-statistika/
 └── assets/
 ```
@@ -55,6 +56,13 @@ math-with-python-id/
 
 ## Notebook Yang Tersedia
 
+Aritmetika:
+
+- [Operasi Dasar](notebooks/01-aritmetika/01-operasi-dasar.ipynb)
+- [Pecahan](notebooks/01-aritmetika/02-pecahan.ipynb)
+- [Persen](notebooks/01-aritmetika/03-persen.ipynb)
+- [Pangkat dan Akar](notebooks/01-aritmetika/04-pangkat-dan-akar.ipynb)
+
 Statistika dasar:
 
 - [Rata-rata / Mean](notebooks/03-statistika/01-rata-rata.ipynb)
@@ -62,7 +70,7 @@ Statistika dasar:
 - [Modus](notebooks/03-statistika/03-modus.ipynb)
 - [Varians dan Standar Deviasi](notebooks/03-statistika/04-varians-dan-standar-deviasi.ipynb)
 
-Topik statistika dasar dipilih lebih dulu karena konsepnya dekat dengan penggunaan Python untuk data analysis dan machine learning.
+Topik aritmetika menjadi fondasi awal sebelum masuk ke aljabar, fungsi, statistika, dan materi lain yang lebih besar.
 
 ## Menjalankan Contoh Kode
 
