@@ -39,6 +39,7 @@ math-with-python-id/
 ├── requirements.txt
 ├── notebooks/
 │   ├── 01-aritmetika/
+│   ├── 02-aljabar/
 │   └── 03-statistika/
 └── assets/
 ```
@@ -62,6 +63,13 @@ Aritmetika:
 - [Pecahan](notebooks/01-aritmetika/02-pecahan.ipynb)
 - [Persen](notebooks/01-aritmetika/03-persen.ipynb)
 - [Pangkat dan Akar](notebooks/01-aritmetika/04-pangkat-dan-akar.ipynb)
+
+Aljabar dasar:
+
+- [Variabel dan Ekspresi](notebooks/02-aljabar/01-variabel-dan-ekspresi.ipynb)
+- [Persamaan Linear](notebooks/02-aljabar/02-persamaan-linear.ipynb)
+- [Persamaan Kuadrat](notebooks/02-aljabar/03-persamaan-kuadrat.ipynb)
+- [Sistem Persamaan Linear](notebooks/02-aljabar/04-sistem-persamaan-linear.ipynb)
 
 Statistika dasar:
 
