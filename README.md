@@ -29,7 +29,7 @@ Untuk setiap topik, alurnya seperti ini:
 3. Baca implementasi Python tanpa library.
 4. Bandingkan dengan implementasi menggunakan library.
 5. Kerjakan latihan.
-6. Cek solusi setelah mencoba sendiri.
+6. Cek pembahasan di notebook setelah mencoba sendiri.
 
 ## Struktur Repo
 
@@ -37,13 +37,8 @@ Untuk setiap topik, alurnya seperti ini:
 math-with-python-id/
 ├── README.md
 ├── requirements.txt
-├── materi/
+├── notebooks/
 │   └── 03-statistika/
-├── kode/
-│   ├── tanpa_library/
-│   └── dengan_library/
-├── latihan/
-├── solusi/
 └── assets/
 ```
 
@@ -62,7 +57,7 @@ math-with-python-id/
 
 Mulai dari:
 
-[Rata-rata / Mean](materi/03-statistika/01-rata-rata.md)
+[Notebook Rata-rata / Mean](notebooks/03-statistika/01-rata-rata.ipynb)
 
 Topik ini sederhana, tapi bagus untuk melihat pola utama repo ini: dari konsep matematika, ke kode Python manual, lalu ke versi dengan library.
 
@@ -86,17 +81,19 @@ Install library yang dibutuhkan:
 pip install -r requirements.txt
 ```
 
-Jalankan contoh tanpa library:
+Buka notebook:
 
 ```bash
-python kode/tanpa_library/statistika.py
+jupyter notebook
 ```
 
-Jalankan contoh dengan library:
+Lalu pilih file:
 
-```bash
-python kode/dengan_library/statistika.py
+```text
+notebooks/03-statistika/01-rata-rata.ipynb
 ```
+
+Semua materi, contoh kode, latihan, dan pembahasan ditulis langsung di dalam notebook.
 
 ## Prinsip Penulisan
 
