@@ -28,8 +28,8 @@ Untuk setiap topik, alurnya seperti ini:
 2. Lihat contoh manual dengan angka kecil.
 3. Baca implementasi Python tanpa library.
 4. Bandingkan dengan implementasi menggunakan library.
-5. Kerjakan latihan.
-6. Cek pembahasan di notebook setelah mencoba sendiri.
+5. Baca perbandingan antara cara manual dan cara dengan library.
+6. Simpan catatan penting untuk menghubungkan materi dengan topik berikutnya.
 
 ## Struktur Repo
 
@@ -53,13 +53,16 @@ math-with-python-id/
 - Aljabar linear
 - Probabilitas
 
-## Materi Pertama
+## Notebook Yang Tersedia
 
-Mulai dari:
+Statistika dasar:
 
-[Notebook Rata-rata / Mean](notebooks/03-statistika/01-rata-rata.ipynb)
+- [Rata-rata / Mean](notebooks/03-statistika/01-rata-rata.ipynb)
+- [Median](notebooks/03-statistika/02-median.ipynb)
+- [Modus](notebooks/03-statistika/03-modus.ipynb)
+- [Varians dan Standar Deviasi](notebooks/03-statistika/04-varians-dan-standar-deviasi.ipynb)
 
-Topik ini sederhana, tapi bagus untuk melihat pola utama repo ini: dari konsep matematika, ke kode Python manual, lalu ke versi dengan library.
+Topik statistika dasar dipilih lebih dulu karena konsepnya dekat dengan penggunaan Python untuk data analysis dan machine learning.
 
 ## Menjalankan Contoh Kode
 
@@ -90,13 +93,13 @@ jupyter notebook
 Lalu pilih file:
 
 ```text
-notebooks/03-statistika/01-rata-rata.ipynb
+notebooks/03-statistika/
 ```
 
-Semua materi, contoh kode, latihan, dan pembahasan ditulis langsung di dalam notebook.
+Semua materi dan contoh kode ditulis langsung di dalam notebook.
 
 ## Prinsip Penulisan
 
-Materi di repo ini ditulis dengan bahasa yang jelas, praktis, dan ramah untuk pemula. Penjelasan akan dibuat pelan-pelan, tanpa menganggap pembaca sudah nyaman dengan matematika atau coding.
+Materi di repo ini ditulis sebagai catatan belajar: jelas, praktis, dan ramah untuk pemula. Penjelasan akan dibuat pelan-pelan, tanpa menganggap pembaca sudah nyaman dengan matematika atau coding.
 
 Fokusnya bukan menghafal rumus, tapi memahami ide di baliknya.
